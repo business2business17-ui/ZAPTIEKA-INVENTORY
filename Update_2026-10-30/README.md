@@ -23,6 +23,11 @@ Files:
 
 A parent must share the product type of its children, so shampoos and conditioners (and the other single products) cannot be merged into one family without changing their product type.
 
+## Files added after cost check
+- `GB PRICE FEED_2026-10-30.xlsm`, `DE PRICE FEED_2026-10-30.xlsm` - price-only feeds (SKU, product type, action, List Price, Your Price, Min/Max, Sale Price + dates, qty). Upload these to (re)load prices.
+- `Margin_Check_vs_Cost.xlsx` - margins per SKU (21% LV VAT, cost / 1.21, fee 8%/15%, GBP->EUR 1.15; shipping/ads excluded).
+- 16 rows (8 `_mfn` SKUs x UK/DE) were repriced to keep >=20% net margin at the 4 pcs tier; see sheet Margin_check.
+
 ## Prices (all 32 SKUs, both markets)
 Sale Price = current price. Your Price = List Price (UVP) = Sale / 0.90. Business Price = Your Price x 0.90. Tiers from Business Price: 2 pcs -5%, 4 pcs -10%. Sale 30.10.2026 -> 01.05.2027. Quantity 10.
 
