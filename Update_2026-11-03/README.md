@@ -3,7 +3,7 @@
 Based on the Category Listings Reports of 03.11.2026. Upload in this order, waiting until each upload is processed:
 
 1. `GB STEP1 DELETE old parents...` / `DE STEP1 DELETE old parents...` - deletes the old parents `UK-Parent-1…5` and `DE-Parent-1` (action Delete / Löschen). Children stay as standalone listings.
-2. `GB STEP2 CREATE parents+variations (NO prices)...` / `DE STEP2 ...` - creates 13 new parents per market (`ZAP-UK-P01…13`, `ZAP-DE-P01…13`, Create or Replace) and links all 32 child SKUs to them (parent, theme, variation value). Child rows: SKU, product type, action (Edit), brand, Product Id Type ASIN + ASIN, parent link, theme, variation value. Parent rows: Create, title, item name, brand, description, 3 bullets, country of origin, dangerous goods, theme. No prices, no quantity. New SKU names are used because deleted SKUs stay reserved for some time.
+2. `GB STEP2 CREATE parents+variations (NO prices)...` / `DE STEP2 ...` - creates 13 new parents per market (`ZAP-UK-P01…13`, `ZAP-DE-P01…13`, Create or Replace) and links all 32 child SKUs to them (parent, theme, variation value). Child rows: SKU, product type, action (Edit), brand, Product Id Type ASIN + ASIN, parent link, theme, variation value. Parent rows: Create, batteries required = No, title, item name, brand, description, 3 bullets, country of origin, dangerous goods, theme. No prices, no quantity. New SKU names are used because deleted SKUs stay reserved for some time.
 3. `GB STEP3 PRICE FEED...` / `DE STEP3 PRICE FEED...` - prices, sale price, qty 10 (only file with prices).
 - `B2B_Pricing_and_Audit_2026-11-03.xlsx` - Business Price and 2 / 4 pcs tiers (sheets B2B_feed_UK / B2B_feed_DE), audit, parent map, margin check.
 - `Margin_Check_vs_Cost.xlsx`.
