@@ -8,6 +8,8 @@ Based on the Category Listings Reports of 03.11.2026. Upload in this order, wait
 - `B2B_Pricing_and_Audit_2026-11-03.xlsx` - Business Price and 2 / 4 pcs tiers (sheets B2B_feed_UK / B2B_feed_DE), audit, parent map, margin check.
 - `Margin_Check_vs_Cost.xlsx`.
 
+- `GB STEP2b ... P05 parent already exists` - UK STEP2 without the `ZAP-UK-P05` parent (already created, ASIN B0HQP3R592): 12 parents + 32 children.
+
 ## Parents (same numbering in both markets)
 | # | Family | Product type | Theme UK / DE | Children |
 |---|---|---|---|---|
